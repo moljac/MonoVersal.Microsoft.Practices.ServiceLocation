@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Practices.ServiceLocation", "Microsoft.Practices.ServiceLocation\Microsoft.Practices.ServiceLocation.csproj", "{FAF6D6B2-1EC9-4A1B-83BB-48F772E948CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Practices.ServiceLocation.PortableClassLibrary", "Microsoft.Practices.ServiceLocation.PortableClassLibrary\Microsoft.Practices.ServiceLocation.PortableClassLibrary.csproj", "{610653AE-B766-4AD1-A5C6-865246206B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Practices.ServiceLocation.Silverlight", "Microsoft.Practices.ServiceLocation.Silverlight\Microsoft.Practices.ServiceLocation.Silverlight.csproj", "{B543BE3E-F1F5-4967-A8AB-B204482C8BA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Practices.ServiceLocation.WP", "Microsoft.Practices.ServiceLocation.WP\Microsoft.Practices.ServiceLocation.WP.csproj", "{74303DBF-75E8-4A72-AEC2-EC51C0D42C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Practices.ServiceLocation.MA", "Microsoft.Practices.ServiceLocation.MA\Microsoft.Practices.ServiceLocation.MA.csproj", "{9297FF90-7D2F-437D-9525-417416159E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Practices.ServiceLocation.MT", "Microsoft.Practices.ServiceLocation.MT\Microsoft.Practices.ServiceLocation.MT.csproj", "{D5BAA4C1-6F60-472A-AA17-127D3D64B91D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610653AE-B766-4AD1-A5C6-865246206B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610653AE-B766-4AD1-A5C6-865246206B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610653AE-B766-4AD1-A5C6-865246206B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610653AE-B766-4AD1-A5C6-865246206B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74303DBF-75E8-4A72-AEC2-EC51C0D42C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74303DBF-75E8-4A72-AEC2-EC51C0D42C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74303DBF-75E8-4A72-AEC2-EC51C0D42C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74303DBF-75E8-4A72-AEC2-EC51C0D42C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9297FF90-7D2F-437D-9525-417416159E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9297FF90-7D2F-437D-9525-417416159E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9297FF90-7D2F-437D-9525-417416159E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9297FF90-7D2F-437D-9525-417416159E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B543BE3E-F1F5-4967-A8AB-B204482C8BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B543BE3E-F1F5-4967-A8AB-B204482C8BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B543BE3E-F1F5-4967-A8AB-B204482C8BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B543BE3E-F1F5-4967-A8AB-B204482C8BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BAA4C1-6F60-472A-AA17-127D3D64B91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BAA4C1-6F60-472A-AA17-127D3D64B91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BAA4C1-6F60-472A-AA17-127D3D64B91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BAA4C1-6F60-472A-AA17-127D3D64B91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF6D6B2-1EC9-4A1B-83BB-48F772E948CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF6D6B2-1EC9-4A1B-83BB-48F772E948CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF6D6B2-1EC9-4A1B-83BB-48F772E948CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF6D6B2-1EC9-4A1B-83BB-48F772E948CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Microsoft.Practices.ServiceLocation\Microsoft.Practices.ServiceLocation.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

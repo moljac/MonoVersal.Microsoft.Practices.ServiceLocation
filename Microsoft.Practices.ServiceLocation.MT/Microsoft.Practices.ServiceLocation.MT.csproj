@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D5BAA4C1-6F60-472A-AA17-127D3D64B91D}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Microsoft.Practices.ServiceLocation</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Microsoft.Practices.ServiceLocation.MT</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Microsoft.Practices.ServiceLocation\ActivationException.cs">
+      <Link>ActivationException.cs</Link>
+    </Compile>
+    <Compile Include="..\Microsoft.Practices.ServiceLocation\ActivationException.Desktop.cs">
+      <Link>ActivationException.Desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Microsoft.Practices.ServiceLocation\IServiceLocator.cs">
+      <Link>IServiceLocator.cs</Link>
+    </Compile>
+    <Compile Include="..\Microsoft.Practices.ServiceLocation\Properties\Resources.Designer.cs">
+      <Link>Resources.Designer.cs</Link>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\Microsoft.Practices.ServiceLocation\ServiceLocator.cs">
+      <Link>ServiceLocator.cs</Link>
+    </Compile>
+    <Compile Include="..\Microsoft.Practices.ServiceLocation\ServiceLocatorImplBase.cs">
+      <Link>ServiceLocatorImplBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Microsoft.Practices.ServiceLocation\ServiceLocatorProvider.cs">
+      <Link>ServiceLocatorProvider.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Microsoft.Practices.ServiceLocation\Readme.txt">
+      <Link>Readme.txt</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Microsoft.Practices.ServiceLocation\Properties\Resources.resx">
+      <Link>Resources.resx</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
